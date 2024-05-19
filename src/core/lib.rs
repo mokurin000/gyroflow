@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 // Copyright © 2021-2022 Adrian <adrian.eddy at gmail>
 
+#[cfg(feature = "parking_lot")]
+pub use parking_lot;
+
 pub mod gyro_source;
 pub mod imu_integration;
 pub mod lens_profile;

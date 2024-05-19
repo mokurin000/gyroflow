@@ -104,6 +104,7 @@ default = []
 use-opencl = ["ocl", "ocl-interop"]
 use-opencv = ["opencv"]
 bundle-lens-profiles = []
+parking_lot = []
 
 [profile.deploy]
 inherits = "release"
